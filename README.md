@@ -30,3 +30,5 @@ public class Main {
 ### _Non-primitive Datatype_
 
 **`String`** - String is a datatype in Java which is not a primitive type. It actually is a class. A string is a sequence of characters.
+
+Strings are immutable. whenever we concatenate or perform any operations on strings a new string in created and the old one is discarded.
