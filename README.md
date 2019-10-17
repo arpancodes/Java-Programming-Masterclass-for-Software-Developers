@@ -50,5 +50,5 @@ subt -= 8; // Short-hand operator for subtraction | Same as : subt = subt + 8
 subt--; // decrement operator | same as : subt = subt - 1
 
 int div = 6 / 2; // Division operator
-div /= 4; // Short-hand operator for Division | Same as : multiply = multiply * 4
+div /= 4; // Short-hand operator for Division | Same as : div = div * 4
 ```
