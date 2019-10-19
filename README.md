@@ -143,10 +143,8 @@ Larger number means higher precedence.
 |15|()|Parentheses|Left to Right|
 |15|[]|Array subscript|Left to Right|
 |15|.|Member selection|Left to Right|
-|||||
 |14|++|Unary post-increment|Right to Left|
 |14|--|Unary post-decrement|Right to Left|
-|||||
 |13|++|Unary pre-increment|Right to Left|
 |13|--|Unary pre-decrement|Right to Left|
 |13|+|Unary plus|Right to Left|
@@ -154,39 +152,27 @@ Larger number means higher precedence.
 |13|!|Unary logical negation|Right to Left|
 |13|~|Unary bitwise complement|Right to Left|
 |13|(_type_)|Unary type cast|Right to Left|
-|||||
 |12|_|Multiplication|Left to right|
 |12|/|Division|Left to right|
 |12|%|Modulus|Left to right|
-|||||
 |11|+|Addidion|Left to Right|
 |11|-|Subtraction|Left to Right|
-|||||
 |10|<<|Bitwise left shift|Left to Right|
 |10|>>|Bitwise right shift with sign extension|Left to Right|
 |10|>>>|Bitwise right shift with zero extension|Left to Right|
-|||||
 |9|<|Relational less than|Left to right|
 |9|<=|Relational less than or equal|Left to right|
 |9|>|Relational greater than|Left to right|
 |9|>=|Relational greater than or equal|Left to right|
 |9|instanceof|Type comparison (objects only)|Left to right|
-|||||
 |8|==|Relational is equal to|Left to right|
 |8|!=|Relational is not equal to|Left to right|
-|||||
 |7|&|Bitwise AND|Left to right|
-|||||
 |6|^|Bitwise exclusive OR|Left to right|
-|||||
 |5|`|`|Bitwise inclusive OR|Left to right|
-|||||
 |4|&&|Logical AND|Left to right|
-|||||
 |3|`||`|Logical OR|Left to right|
-|||||
 |2|? :|Ternary conditional|Right to left|
-|||||
 |1|=|Assignment|Right to left|
 |1|+=|Addition Assignment|Right to left|
 |1|-=|Subtraction Assignment|Right to left|
