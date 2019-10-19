@@ -105,3 +105,19 @@ System.out.println(lesser);
 boolean lesserEqual = 8 <= 8; // true
 System.out.println(lesserEqual);
 ```
+
+#### `Logical`
+
+```java
+/* OR (||) */
+boolean thisOrThat = 50 > 100 || 45 < 50; // true
+System.out.println(thisOrThat);
+
+/* AND (&&) */
+boolean thisAndThat = 50 > 100 && 45 < 50; // false
+System.out.println(thisAndThat);
+
+/* NOT (!) */
+boolean notThis = !(50 > 100); // true
+System.out.println(notThis);
+```
