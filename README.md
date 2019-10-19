@@ -121,3 +121,16 @@ System.out.println(thisAndThat);
 boolean notThis = !(50 > 100); // true
 System.out.println(notThis);
 ```
+
+#### `Ternary Operator (?:)`
+
+Its a short hand for if-else statement
+
+```java
+double number1 = 20.0;
+double number2 = 80.0;
+double addAndMultiply = (number1 + number2) * 100;
+double remainder = addAndMultiply%40;
+boolean checkRemainder = remainder == 0 ? true :  false;
+System.out.println(checkRemainder); // true
+```
