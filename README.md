@@ -77,3 +77,31 @@ System.out.println("3 / 4 = " + div); // 3 / 4 = 0 | integer division
 ```
 
 _`Note : + operator is also used for string concatination.`_
+
+#### `Relational`
+
+```java
+/* EQUAL TO (==) */
+boolean equalTo = 5==6; // false
+System.out.println(equalTo);
+
+/* NOT EQUAL TO (!=) */
+boolean notEqual = 5 != 4; // true
+System.out.println(notEqual);
+
+/* GREATER THAN (>) */
+boolean greater = 6 > 2; // true
+System.out.println(greater);
+
+/* GREATER THAN OR EQUAL TO (>=) */
+boolean greaterEqual = 5 >= 5; // true
+System.out.println(greaterEqual);
+
+/* LESSER THAN (<) */
+boolean lesser = 8 < 10; // true
+System.out.println(lesser);
+
+/* LESSER THAN OR EQUAL TO */
+boolean lesserEqual = 8 <= 8; // true
+System.out.println(lesserEqual);
+```
