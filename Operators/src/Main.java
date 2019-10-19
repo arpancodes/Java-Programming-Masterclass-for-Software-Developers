@@ -65,6 +65,19 @@ public class Main {
         boolean lesserEqual = 8 <= 8; // true
         System.out.println(lesserEqual);
 
-        
+        // Logical Operator
+
+        /* OR (||) */
+        boolean thisOrThat = 50 > 100 || 45 < 50; // true
+        System.out.println(thisOrThat);
+
+        /* AND (&&) */
+        boolean thisAndThat = 50 > 100 && 45 < 50; // false
+        System.out.println(thisAndThat);
+
+        /* NOT (!) */
+        boolean notThis = !(50 > 100); // true
+        System.out.println(notThis);
+
     }
 }
